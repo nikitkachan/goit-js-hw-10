@@ -3,9 +3,9 @@
   height: 16px;
   border-radius: 50%;
   display: block;
-  margin: 15px auto;
+  margin: 15px 50px;
   position: relative;
-  background: #f6caca;
+  background: #b0b0b0;
   box-shadow: -24px 0 #fff, 24px 0 #fff;
   box-sizing: border-box;
   animation: shadowPulse 2s linear infinite;
@@ -14,14 +14,14 @@
 @keyframes shadowPulse {
   33% {
     background: #fff;
-    box-shadow: -24px 0 #ff3d00, 24px 0 #fff;
+    box-shadow: -24px 0 #000000, 24px 0 #fff;
   }
   66% {
-    background: #ff3d00;
+    background: #000000;
     box-shadow: -24px 0 #fff, 24px 0 #fff;
   }
   100% {
     background: #fff;
-    box-shadow: -24px 0 #fff, 24px 0 #ff3d00;
+    box-shadow: -24px 0 #fff, 24px 0 #000000;
   }
 }

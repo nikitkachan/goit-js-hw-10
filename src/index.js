@@ -43,7 +43,7 @@ function onSelectChange(e) {
     console.dir(e.target.value);
     const selectedBreed = e.target.value;
     fetchCatImgByBreed(selectedBreed)
-        .then(res => `<img src="${res[0].url}" width="300"/>`)
+        .then(res => `<img src="${res[0].url}" width="600"/>`)
         .then(res => {
             catInfo.insertAdjacentHTML("afterbegin", res);
             loaderMsg.style.display = "none";
